@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You have received a Gift in Eventak</title>
+    <style>
+        :root {
+            --primary-bg: #1A0831;
+            --accent-gold: #FFD700;
+            --soft-purple: #B0A0D0;
+            --glass-bg: rgba(255, 255, 255, 0.07);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--primary-bg);
+            background-image: 
+                radial-gradient(circle at 20% 30%, #2d1354 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, #210c41 0%, transparent 40%);
+            color: white;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 50px 30px;
+            border-radius: 30px;
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+        }
+
+        .logo-text {
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 35px;
+            color: white;
+        }
+
+        .logo-text span {
+            color: var(--soft-purple);
+        }
+
+        h1 {
+            font-size: 18px; 
+            margin-bottom: 20px;
+            color: white;
+            font-family: 'Georgia', serif;
+            letter-spacing: 0.5px;
+            font-weight: normal;
+        }
+
+        p {
+            color: var(--soft-purple);
+            line-height: 1.8;
+            margin-bottom: 35px;
+            font-size: 15px;
+        }
+
+        .ticket-info {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 40px;
+            border-right: 4px solid var(--accent-gold);
+            text-align: right;
+        }
+
+        .ticket-info h2 {
+            margin: 0;
+            font-size: 18px;
+            color: var(--accent-gold);
+        }
+
+        .ticket-info span {
+            display: block;
+            font-size: 13px;
+            color: #ccc;
+            margin-top: 8px;
+        }
+
+        .download-btn {
+            background: linear-gradient(90deg, #5A4C91, #B0A0D0);
+            color: #1A0831;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-block;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(90, 76, 145, 0.4);
+            filter: brightness(1.1);
+        }
+
+        .footer-note {
+            margin-top: 30px;
+            font-size: 10px;
+            color: rgba(255,255,255,0.3);
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="logo-text">E<span>VENTAK</span></div>
+        
+        <h1>You have received a Gift in Eventak</h1>
+        
+        <p>لقد أرسل لك أحد الأصدقاء تذكرة حضور لفعالية حصرية. استلم هديتك الآن وانضم إلينا في عالم من التجارب الفريدة.</p>
+
+        <div class="ticket-info">
+            <h2>فعالية LEAP 2026</h2>
+            <span>الرياض | ملهم</span>
+            <span>الأحد، 12 أبريل | 08:00 مساءً</span>
+        </div>
+
+        <a href="#" class="download-btn">Claim Your Gift</a>
+        
+        <div class="footer-note">
+            SECURED BY BLOCKCHAIN TECHNOLOGY • EVENTAK 2026
+        </div>
+    </div>
+
+</body>
+</html>
