@@ -1,7 +1,7 @@
 const express = require('express');
 const mysql = require('mysql2');
 const cors = require('cors');
-const stripe = require('stripe')('sk_test_51TLJPyFk8UWYyKQwuqRQ3txRuloHpNjkwO6348uxZtALsY082V1H1FrN4OYkUM7YqriGgJGgLqhBgpJ5rMzRaGHj00V7A3pFAW');
+const stripe = require('stripe')('YOUR_STRIPE_KEY_HERE');
 
 const app = express();
 app.use(cors());
